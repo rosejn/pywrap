@@ -92,5 +92,5 @@ class Errcheck(object):
 
     @staticmethod
     def print_all(result, func, args):
-        print result, func, args
+        print(result, func, args)
         return result
